@@ -1,0 +1,1259 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.Spacer-for-dots {
+  display: flex;
+  height: 2px;
+  width: 24%;
+  background-color: lightgray;
+  position: relative;
+  top: 20px;
+}
+
+.Spacer-for-text {
+  height: 1px;
+  width: 105%;
+  background-color: black;
+  margin: 30px 0px;
+}
+
+.Spacer-for-text2 {
+  height: 1px;
+  width: 100%;
+  background-color: white;
+  margin: 30px 0px;
+}
+
+.Rectangle-big-round {
+  width: 78%;
+  height: 95%;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.Rectangle-medium-sharp {
+  width: 34%;
+  height: 425px;
+  margin-left: 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Circle-big {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Circle-medium {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Circle-small {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Circle-tran {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(116, 116, 248, 0.2);
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(241, 241, 241);
+}
+
+header li a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.content.header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 100%;
+  width: 200px;
+}
+
+.logo-picture {
+  display: flex;
+  height: 65%;
+  padding: 15px;
+}
+
+.Top-navigation ul {
+  display: flex;
+  gap: 20px;
+}
+
+.Trigram {
+  display: none;
+}
+
+header ul li {
+  list-style: none;
+}
+
+.Top-navigation {
+  display: flex;
+  gap: 30px;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+header button {
+  border-radius: 30px;
+  border: 1px;
+  width: 105px;
+  height: 50px;
+  background-color: rgb(0, 102, 255);
+  color: white;
+  margin-right: 40px;
+}
+
+.Body-info {
+  background-image: url(../assets/bg/background-top.svg);
+  height: 500px;
+  display: flex;
+  margin-left: 20px;
+}
+
+.Body-logos {
+  width: 75%;
+  display: flex;
+}
+
+.Asana {
+  position: absolute;
+  top: 15%;
+  left: 88%;
+}
+.Atlassian {
+  position: absolute;
+  top: 15%;
+  left: 63%;
+}
+.Calendar {
+  position: absolute;
+  top: 55%;
+  left: 88%;
+}
+.Paypal {
+  position: absolute;
+  top: 38%;
+  right: 47%;
+}
+.Weave {
+  position: absolute;
+  top: 39%;
+  right: 24%;
+}
+.Google-ads {
+  position: absolute;
+  top: 54%;
+  right: 37%;
+}
+.Google {
+  position: absolute;
+  top: 15%;
+  right: 47%;
+}
+.Asana img {
+  width: 70px;
+  height: 70px;
+}
+.Atlassian img,
+.Calendar img,
+.Paypal img,
+.Weave img {
+  width: 60px;
+  height: 60px;
+}
+
+.Google-ads img {
+  width: 55px;
+  height: 55px;
+}
+.Google img {
+  width: 45px;
+  height: 45px;
+}
+
+.Body-container {
+  width: 348px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: arial;
+  margin: 0;
+}
+
+.Under-h1 {
+  padding-top: 10px;
+  color: gray;
+}
+
+.Button-learn {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.Button-learn button {
+  border-radius: 30px;
+  border: 1px;
+  width: 135px;
+  height: 50px;
+  background-color: blue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa.fa-play-circle {
+  padding-right: 10px;
+}
+
+.Button-learn a {
+  text-decoration: none;
+  color: blue;
+}
+
+.Button-learn a:hover {
+  text-decoration: underline;
+  color: darkviolet;
+}
+
+.Top-middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Top-middle p {
+  color: gray;
+  width: 512px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.Dot-points {
+  width: 5px;
+  height: 5px;
+  background-color: blue;
+  border-radius: 50%;
+  margin: 5px 0;
+}
+
+.Info-points {
+  padding: 0px 140px;
+}
+
+.Info-points-text {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Info1 {
+  padding-left: 5%;
+}
+
+.Info2 {
+  padding-left: 2%;
+}
+
+.Info4 {
+  padding-right: 5%;
+}
+
+.Info-points ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.Pricing-box {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.Pricing-box h2 {
+  margin: 5px;
+}
+
+.Bottom-middle {
+  display: flex;
+  padding-bottom: 80px;
+}
+
+.Left-side {
+  margin: 50px 50px 50px 40px;
+  height: 78%;
+}
+
+.Left-side button {
+  border-radius: 30px;
+  border: 1px;
+  width: 145px;
+  height: 45px;
+  background-color: blue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.Quote-flex {
+  display: flex;
+  align-items: flex-end;
+  padding-top: 20px;
+}
+
+.Quote-flex h1 {
+  padding-right: 2px;
+}
+
+.Smaller {
+  font-size: 12px;
+  color: gray;
+  padding-top: 10px;
+}
+
+.The-rest {
+  display: flex;
+  flex-direction: column;
+}
+
+.First-two {
+  display: flex;
+}
+
+.Second-two {
+  display: flex;
+}
+
+.Box-1,
+.Box-2,
+.Box-3,
+.Box-4 {
+  margin: 30px;
+  width: 235px;
+}
+
+.Whanger {
+  display: flex;
+  align-items: center;
+}
+
+.Whanger h3 {
+  padding-right: 10px;
+}
+
+.Whanger button {
+  height: 25px;
+  width: 65px;
+  background-color: rgb(57, 223, 145);
+  border: 1px;
+  border-radius: 20px;
+  color: white;
+}
+
+.The-rest img {
+  width: 45px;
+  height: 45px;
+}
+
+.Rectangle-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 3%;
+}
+
+.Form-side {
+  margin: 30px;
+}
+
+.Form-side h3 {
+  margin: 0;
+}
+
+.Form-name-sort {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 0px;
+}
+
+.Form-input-name {
+  width: 42%;
+  height: 35px;
+  padding-left: 10px;
+  border-radius: 8px;
+  border: 1px solid;
+}
+
+.Form-input-email {
+  width: 97.5%;
+  height: 35px;
+  padding-left: 10px;
+  border-radius: 8px;
+  border: 1px solid;
+}
+
+.Form-drop-sort {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 0px 10px 0px;
+}
+
+.Form-drop-sort select {
+  width: 44%;
+  height: 45px;
+  padding-left: 10px;
+  border-radius: 8px;
+}
+
+.Form-story {
+  width: 98.5%;
+  height: 140px;
+  border-radius: 8px;
+  border: 1px solid;
+  margin-bottom: 28px;
+}
+
+.Priv-check {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.Bigger-check {
+  width: 40px;
+  margin-right: 15px;
+}
+
+.Priv-double {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 28px;
+}
+
+.Priv-double p:hover {
+  color: lightskyblue;
+  border-color: lightskyblue;
+}
+
+.Dashed-line {
+  border-bottom: 2px dashed black;
+  padding-bottom: 4px;
+  display: inline-block;
+}
+
+.Form-side button {
+  width: 130px;
+  height: 45px;
+  border-radius: 30px;
+  background-color: rgb(0, 102, 255);
+  border: 1px solid;
+}
+
+.Button-align {
+  display: flex;
+  justify-content: center;
+}
+
+.Hire-side {
+  width: 40%;
+  padding: 150px 10px 0px 70px;
+  position: relative;
+  left: 6%;
+}
+
+.Turn-white {
+  color: white;
+}
+
+.Slant-white {
+  color: white;
+  padding-bottom: 70px;
+}
+
+.Gray-gap {
+  color: gray;
+  padding-bottom: 20px;
+}
+
+.Hire-side h2 {
+  margin-bottom: 12px;
+}
+
+.Big-white {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 4px;
+}
+
+.Circle-pic {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50%;
+  background-image: url(../assets/images/man_one.jpg);
+  background-position: center;
+  background-size: auto;
+}
+
+footer li {
+  list-style: none;
+  padding-bottom: 8px;
+}
+
+.Bottom-info {
+  display: flex;
+  background-color: rgb(38, 51, 107);
+  height: 700px;
+}
+
+.Footer-info {
+  width: 100%;
+  display: flex;
+}
+
+.Footer-start img {
+  width: 100px;
+  height: 40px;
+  padding-bottom: 15px;
+}
+
+.Footer-start {
+  padding-top: 25px;
+  padding-left: 20px;
+  width: 350px;
+}
+
+.Phone-number {
+  color: rgb(54, 145, 201);
+  padding-top: 10px;
+}
+
+.Phone-number i,
+.Locator-p i,
+li i {
+  padding-right: 10px;
+  color: gray;
+}
+
+.Career-hire {
+  display: flex;
+  gap: 10px;
+}
+
+Footer li:hover {
+  color: lightskyblue;
+}
+
+Footer button {
+  background-color: rgb(0, 102, 255);
+  color: white;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+.Turn-gray,
+.Locator-p,
+Footer li {
+  text-decoration: none;
+  color: gray;
+}
+
+.Company {
+  margin-right: 20px;
+}
+
+.Resources {
+  padding-left: 60px;
+}
+
+.Footer-rest {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding-right: 5%;
+}
+
+.First-section {
+  display: flex;
+}
+
+.Second-section {
+  display: flex;
+}
+
+.Footer-rest ul {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+Footer h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1024px) {
+  header button:hover {
+    background-color: white;
+    color: rgb(0, 102, 255);
+    border: 1px solid rgb(0, 102, 255);
+  }
+
+  .Button-learn button:hover {
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+  }
+
+  .Left-side button:hover {
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+  }
+
+  .Circle-medium {
+    transition: all 3s linear;
+  }
+
+  .Circle-big {
+    transition: all 3s ease-in;
+  }
+
+  .Whanger button:hover {
+    background-color: white;
+    color: rgb(57, 223, 145);
+    border: 1px solid rgb(57, 223, 145);
+  }
+
+  .Rectangle-medium-sharp:hover {
+    box-shadow: 0 4px 10px black;
+  }
+
+  .Form-side button:hover {
+    background-color: white;
+    color: rgb(0, 102, 255);
+    border: 1px solid rgb(0, 102, 255);
+  }
+
+  Footer button:hover {
+    background-color: white;
+    color: rgb(0, 102, 255);
+    border: 1px solid rgb(0, 102, 255);
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+  .Circle-big {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .Circle-medium {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .Trigram {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .Button-trigram {
+    background-color: transparent;
+    border: 0px;
+    margin-right: 10px;
+  }
+
+  .fa.fa-bars {
+    color: black;
+    font-size: 18px;
+  }
+
+  .Top-navigation {
+    display: none;
+  }
+
+  .Body-info {
+    margin: 0;
+    flex-direction: column;
+    height: 400px;
+  }
+
+  .Body-container {
+    align-items: center;
+    width: 100%;
+    height: 50%;
+  }
+
+  .Body-logos {
+    width: 100%;
+    height: 50%;
+  }
+
+  .Asana {
+    position: relative;
+    top: 80%;
+    left: 70%;
+  }
+  .Atlassian {
+    position: relative;
+    top: 75%;
+    left: 25%;
+  }
+  .Calendar {
+    position: relative;
+    top: 175%;
+    left: 48%;
+  }
+  .Paypal {
+    position: relative;
+    top: 118%;
+    right: 28%;
+  }
+  .Weave {
+    position: relative;
+    top: 119%;
+    right: 0%;
+  }
+  .Google-ads {
+    position: relative;
+    top: 164%;
+    right: 0%;
+  }
+  .Google {
+    position: relative;
+    top: 75%;
+    right: 21%;
+  }
+
+  .Asana img {
+    width: 55px;
+    height: 55px;
+  }
+  .Atlassian img,
+  .Calendar img,
+  .Paypal img,
+  .Weave img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .Google-ads img {
+    width: 40px;
+    height: 40px;
+  }
+  .Google img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .Spacer-for-dots {
+    width: 20%;
+  }
+
+  .Info1 {
+    padding-left: 11%;
+  }
+
+  .Info2 {
+    padding-left: 3%;
+  }
+
+  .Info4 {
+    padding-right: 12%;
+  }
+
+  .Top-middle {
+    padding-top: 200px;
+  }
+
+  .Bottom-middle {
+    flex-direction: column;
+  }
+
+  .Rectangle-medium-sharp {
+    width: 90%;
+    height: 80%;
+  }
+
+  .Left-side {
+    margin: 20px 40px 30px 40px;
+  }
+
+  .Monthly-quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .The-rest {
+    align-items: center;
+  }
+
+  .Box-1,
+  .Box-2,
+  .Box-3,
+  .Box-4 {
+    width: 280px;
+  }
+
+  .Bottom-info {
+    flex-direction: column;
+    height: 1000px;
+  }
+
+  .Hire-side {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px 10px 0px 8px;
+  }
+
+  .Hire-info {
+    width: 50%;
+  }
+
+  .Person-name-pic {
+    width: 40%;
+    padding-top: 35px;
+  }
+
+  .Circle-pic {
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+  }
+
+  .Rectangle-holder {
+    height: 680px;
+  }
+
+  .Form-input-name {
+    width: 46%;
+  }
+
+  .Form-drop-sort select {
+    width: 48%;
+  }
+
+  .Bigger-check {
+    width: 25px;
+    margin-bottom: 12px;
+  }
+
+  .Dashed-line {
+    margin-left: 49px;
+  }
+
+  .Priv-double {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .Footer-info {
+    padding-top: 30px;
+  }
+
+  .Footer-rest {
+    flex-direction: column;
+  }
+
+  .First-section,
+  .Second-section {
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+  }
+
+  .Company,
+  .Features,
+  .Documentation,
+  .Resources {
+    width: 150px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 360px) {
+  .Circle-big {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .Circle-medium {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .Trigram {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .Button-trigram {
+    background-color: transparent;
+    border: 0px;
+    margin-right: 10px;
+  }
+
+  .fa.fa-bars {
+    color: black;
+    font-size: 18px;
+  }
+
+  .Top-navigation {
+    display: none;
+  }
+
+  .Body-info {
+    margin: 0;
+    padding: 40px 20px 0px 20px;
+    flex-direction: column;
+    height: 300px;
+  }
+
+  .Body-container {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+  }
+
+  .Body-container h1 {
+    font-size: 27px;
+  }
+
+  .Body-logos {
+    width: 100%;
+    height: 50%;
+  }
+
+  .Asana {
+    position: relative;
+    top: 40%;
+    left: 80%;
+  }
+  .Atlassian {
+    position: relative;
+    top: 40%;
+    left: 15%;
+  }
+  .Calendar {
+    position: relative;
+    top: 155%;
+    left: 43%;
+  }
+  .Paypal {
+    position: relative;
+    top: 92%;
+    right: 86%;
+  }
+  .Weave {
+    position: relative;
+    top: 90%;
+    right: 50%;
+  }
+  .Google-ads {
+    position: relative;
+    top: 150%;
+    right: 20%;
+  }
+  .Google {
+    position: relative;
+    top: 40%;
+    right: 70%;
+  }
+
+  .Asana img {
+    width: 40px;
+    height: 40px;
+  }
+  .Atlassian img,
+  .Calendar img,
+  .Paypal img,
+  .Weave img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .Google-ads img {
+    width: 30px;
+    height: 30px;
+  }
+  .Google img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .Spacer-for-dots {
+    display: none;
+  }
+
+  .Top-middle {
+    padding: 200px 20px 0px 20px;
+  }
+
+  .Top-middle p {
+    width: 90%;
+    text-align: center;
+  }
+
+  .Middle-box {
+    display: flex;
+  }
+
+  .Info-points {
+    padding: 0px 0px 0px 40px;
+  }
+
+  .Info-points ul {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Info-points-text {
+    position: relative;
+    top: 15px;
+    height: 250px;
+    flex-direction: column;
+    padding-left: 40px;
+  }
+
+  .Info1,
+  .Info2,
+  .Info3,
+  .Info4 {
+    padding: 0px;
+  }
+
+  .Bottom-middle {
+    flex-direction: column;
+  }
+
+  .Rectangle-medium-sharp {
+    width: 90%;
+    margin: 20px;
+  }
+
+  .Quote-flex {
+    justify-content: center;
+  }
+
+  .Monthly-quote button,
+  .Smaller {
+    justify-self: center;
+  }
+
+  .First-two,
+  .Second-two {
+    flex-direction: column;
+  }
+
+  .Box-1,
+  .Box-2,
+  .Box-3,
+  .Box-4 {
+    width: 85%;
+  }
+
+  .Bottom-info {
+    flex-direction: column;
+    height: 1400px;
+  }
+
+  .Hire-side {
+    width: 80%;
+    padding: 20px 10px 30px 10px;
+  }
+
+  .Hire-info {
+    justify-items: center;
+  }
+
+  .Slant-white {
+    text-align: center;
+  }
+
+  .Person-name-pic {
+    justify-items: center;
+  }
+
+  .Circle-pic {
+    width: 45px;
+    height: 45px;
+    background-size: contain;
+  }
+
+  .Rectangle-big-round {
+    width: 90%;
+    height: 850px;
+    position: relative;
+    right: 3.5%;
+  }
+
+  .Form-name-sort {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .Form-input-name {
+    width: 95%;
+  }
+
+  .Form-input-email {
+    width: 95%;
+  }
+
+  .Form-drop-sort {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .Form-drop-sort select {
+    width: 100%;
+  }
+
+  .Bigger-check {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    bottom: 20px;
+  }
+
+  .Dashed-line {
+    position: relative;
+    right: 10%;
+  }
+
+  .Dashed-hidden {
+    display: none;
+  }
+
+  .Footer-info,
+  .Footer-rest,
+  .First-section,
+  .Second-section {
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+  }
+
+  .Footer-info img {
+    position: relative;
+    left: 35%;
+  }
+
+  .Locator-p,
+  .Phone-number {
+    justify-self: center;
+  }
+
+  .Company {
+    height: 200px;
+    position: relative;
+    left: 5%;
+  }
+
+  .Features,
+  .Docuementation,
+  .Resources {
+    height: 200px;
+    margin: 0;
+    padding: 0;
+  }
+
+  Footer ul,
+  Footer h4 {
+    text-align: center;
+  }
+}
